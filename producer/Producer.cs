@@ -13,7 +13,7 @@ public class Producer
         var config = new ProducerConfig()
         {
             // User-specific properties that you must set
-            BootstrapServers = "localhost:9092",
+            BootstrapServers = "localhost:29092",
             // Fixed properties
             Acks = Acks.All,
         };
